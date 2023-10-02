@@ -23,6 +23,5 @@ urlpatterns = [
     path('accounts/',include('accounts.urls')),
     path('',views.homepage,name='homepage'),
     path('taxi/',include('taxi.urls')),
-    path('accounts/',include('accounts.urls')),
 ]   
 
